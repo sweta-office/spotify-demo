@@ -16,7 +16,7 @@ const CardList = () => {
                 </Col>
                 <MusicCard />
             </Row>
-            <Row className='mt-5'>
+            <Row className='mt-2'>
                 <Col sm={11}>
                     <MainTitle mainTitle={"Spotify Playlist"} />
                 </Col>

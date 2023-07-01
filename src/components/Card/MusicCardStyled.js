@@ -6,7 +6,7 @@ const MusicCardStyled = styled.div`
     width:auto;
     border:none;
     border-radius:0;
-    padding:10px;
+    padding:2px;
 }
 .cardImage: {
     objectFit: cover;

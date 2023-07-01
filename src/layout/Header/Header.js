@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <>
             <HeaderStyled>
-                <Navbar sticky='top' fixed='top' expand="lg" className='navBackground'>
+                <Navbar sticky='top' fixed='top' expand="sm" className='navBackground'>
                     <AiFillLeftCircle color='#fff' size={30} className='mx-2' />
                     <AiFillRightCircle color='#fff' size={30} />
                     <div className='buttonPosition'>

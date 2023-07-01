@@ -15,8 +15,8 @@ const MusicCard = () => {
                         <Card className='MusicCard'>
                             <Image variant="top" src={SpotifyImages.profile} alt='profile' className='card-img-top cardImage' height={80}/>
                             <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Description description={"PeaceFull Piano to help you slow down.."} />
+                                <Card.Title>Piano</Card.Title>
+                                <Description description={"PeaceFull Piano to.."} />
                             </Card.Body>
                         </Card>
                     </Col>

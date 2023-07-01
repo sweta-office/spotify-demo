@@ -3,15 +3,14 @@ import { Col, Row } from 'react-bootstrap'
 import { AiFillTwitterCircle, AiFillInstagram } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs"
 import FooterStyled from './FooterStyled';
-import MainTitle from '../../components/Title/MainTitle';
-import Title from '../../components/Title/Title';
+
 const Footer = () => {
   return (
     <>
       <FooterStyled>
         <Row>
           <Col>
-            <Row className="mt-5">
+            <Row className="mt-2">
               <Col>
                 <b className="man mansize"> Comspanany</b>
 
@@ -94,16 +93,6 @@ const Footer = () => {
                         Vendors
                       </a>
                       {" "}
-                    </span>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col>
-
-                    <span className="footerText">
-                      <a className="aTag" href='https://www.spotify.com/in-en/spotifyforwork/'>
-                        Spotify for Work {" "}
-                      </a>
                     </span>
                   </Col>
                 </Row>
